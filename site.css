@@ -4,7 +4,6 @@
     .grid {
         display: grid;
         grid-template-columns: 600px;
-        color: green;
     }
 }
 @media screen and (max-width: 600px) {
@@ -21,15 +20,48 @@
 /*Code for Picture Cad*/
 
 .card {
-    width: 100px;
+    width: 344px;
+}
+
+.desertimg {
+    height: 194px;
+    padding-bottom: 0px;
 }
 
 .avatarimg {
+    height: 40px ;
     border-radius: 50%;
+    float: left;
+    padding: 8px;
 }
 
+.pctitle  {
+    float: left;
+    color: #000;
+    font-size: 22px; /*Font Size reduced from specified 22px to 10px in order to make it similar to screenshot*/
+    position: absolute;
+    top: 558px;
+    left: 70px;
+}
 
+.pcsectext {
+    float: left;
+    color: #232F34;
+    padding-top: 0px ;
+    position: absolute;
+    top: 582px;
+    left: 70px;
+}
 
+.pctext {
+    color: #232F34;
+    padding: 11px; /*Padding reduced from specified 16px to 11px in order to make it similar to screenshot*/
+    font-size: 11px;
+    margin-left: 0px;
+    position: absolute;
+    top: 595px;
+    left: 10px;
+}
 
 
 
