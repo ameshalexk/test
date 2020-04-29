@@ -4,6 +4,7 @@
     .grid {
         display: grid;
         grid-template-columns: 600px;
+        color: green;
     }
 }
 @media screen and (max-width: 600px) {
@@ -17,4 +18,27 @@
     }
 }
 
-/*Code for Picture Card*/
+/*Code for Picture Cad*/
+
+.card {
+    width: 100px;
+}
+
+.avatarimg {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
