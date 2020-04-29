@@ -9,13 +9,13 @@
 
 @media screen and (max-width: 600px) {
     form {
-        width:auto;
+        widows: 100%;
     }
     label {
         display: block;
         margin: 0;
         text-align: left;
-        width: auto;
+        width: 100%;
     }
     input,
     select,
