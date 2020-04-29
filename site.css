@@ -1,4 +1,4 @@
-/* Your styles go in here. */
+/*Code for Form*/
 
 @media screen and (min-width: 600px) {
     .grid {
@@ -6,15 +6,15 @@
         grid-template-columns: 600px;
     }
 }
-
 @media screen and (max-width: 600px) {
     .grid{
-        display: grid;
-        width: auto;
+        display: inline-block;
+        width: 100;
         }
     input,select,textarea {
         width: 100%;
         }
     }
+}
 
-    
+/*Code for Picture Card*/
