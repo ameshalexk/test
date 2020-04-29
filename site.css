@@ -1,8 +1,25 @@
 /* Your styles go in here. */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
     .grid {
         display: grid;
-        grid-template-columns: 900px;
+        grid-template-columns: 600px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    form {
+        width:auto;
+    }
+    label {
+        display: block;
+        margin: 0;
+        text-align: left;
+        width: auto;
+    }
+    input,
+    select,
+    textarea {
+        width: 100%;
+
+    }
