@@ -8,18 +8,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    form {
-        width:auto;
-    }
-    label {
+    .grid{
         display: block;
-        margin: 0;
-        text-align: left;
         width: auto;
-    }
-    input,
-    select,
-    textarea {
+        }
+    input,select,textarea {
         width: 100%;
-
+        }
     }
+
+    
