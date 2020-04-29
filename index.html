@@ -10,7 +10,46 @@
 </head>
 
 <body>
-  <!-- Your markup goes here. -->
+    <!-- Your markup goes here. -->
+    <form action="/pets" method="post">
+      <div class="short">  
+        <label>Name </label>
+        <input type="text" id="name" name="pet_name" placeholder="Pet Name">
+        </br>
+      </br>
+      </div>
+      <div>
+        <label>Type</label>
+        <select id="type" name="pet_type"> 
+          <option>Cat</option>
+          <option>Dog</option>
+          <option>Hamster</option>
+          <option>Zebra</option>
+          <option>Other</option>
+          </select>
+        </div>
+      </br>
+        <div>
+            Biography :  </br>
+          <textarea id="bio" name="pet_bio"> </textarea>
+        </div>
+        <div>
+          <label>Owner's Email</label>
+          <input type="email" name="pet_owner_email" id="owner-email">
+        </div>
+        <div>
+          <input type="submit" id="new-pet-submit-button" value="Create New Pet">
+          <input type="reset" >
+
+        </div>
+
+
+      
+      
+      
+    </form>
+    
+    
 </body>
 
 </html>

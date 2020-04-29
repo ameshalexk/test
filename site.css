@@ -1,1 +1,4 @@
 /* Your styles go in here. */
+@media screen {
+    .short {min-height: 600px}
+}
