@@ -9,17 +9,18 @@
   <link href="site.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="grid">
     <!-- Your markup goes here. -->
     <form action="/pets" method="post">
-      <div class="short">  
+      <fieldset>
+        <legend>Pet Information Form</legend>
         <label>Name </label>
+      </br>
         <input type="text" id="name" name="pet_name" placeholder="Pet Name">
         </br>
       </br>
-      </div>
       <div>
-        <label>Type</label>
+        <label>Type</label></br>
         <select id="type" name="pet_type"> 
           <option>Cat</option>
           <option>Dog</option>
@@ -34,7 +35,7 @@
           <textarea id="bio" name="pet_bio"> </textarea>
         </div>
         <div>
-          <label>Owner's Email</label>
+          <label>Owner's Email</label></br>
           <input type="email" name="pet_owner_email" id="owner-email">
         </div>
         <div>
@@ -43,9 +44,9 @@
 
         </div>
 
-
+      </div>
       
-      
+      </fieldset>
       
     </form>
     

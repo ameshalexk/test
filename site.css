@@ -1,4 +1,8 @@
 /* Your styles go in here. */
-@media screen {
-    .short {min-height: 600px}
+
+@media screen and (min-width: 400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 900px;
+    }
 }
