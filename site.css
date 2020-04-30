@@ -1,21 +1,19 @@
 /*Code for Form*/
 
 @media screen and (min-width: 600px) {
-    .grid {
+    form {
         display: grid;
         grid-template-columns: 600px;
     }
 }
 @media screen and (max-width: 600px) {
-    .grid{
-        display: inline-block;
-        width: 100;
+    form{
+        width: 100%;
         }
     input,select,textarea {
         width: 100%;
         }
     }
-}
 
 /*Code for Picture Cad*/
 
@@ -25,42 +23,40 @@
 
 .desertimg {
     height: 194px;
-    padding-bottom: 0px;
+    width: auto;
 }
 
 .avatarimg {
-    height: 40px ;
     border-radius: 50%;
     float: left;
-    padding: 8px;
+    height: 40px ;
+    width: auto;
 }
 
 .pctitle  {
-    float: left;
     color: #000;
-    font-size: 22px; /*Font Size reduced from specified 22px to 10px in order to make it similar to screenshot*/
+    float: left;
+    font-size: 22px; 
+    left: 70px;   
     position: absolute;
-    top: 558px;
-    left: 70px;
+    top: 553px;
 }
 
 .pcsectext {
-    float: left;
     color: #232F34;
-    padding-top: 0px ;
-    position: absolute;
-    top: 582px;
+    float: left;
     left: 70px;
+    position: absolute;
+    top: 575px;
 }
 
 .pctext {
     color: #232F34;
-    padding: 11px; /*Padding reduced from specified 16px to 11px in order to make it similar to screenshot*/
     font-size: 11px;
-    margin-left: 0px;
+    left: 2px;
+    padding: 16px; 
     position: absolute;
-    top: 595px;
-    left: 10px;
+    top: 585px;
 }
 
 
