@@ -17,46 +17,39 @@
 
 /*Code for Picture Cad*/
 
-.card {
+.card:hover {
     width: 344px;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, .3);
 }
 
 .desertimg {
     height: 194px;
-    width: auto;
 }
 
 .avatarimg {
     border-radius: 50%;
     float: left;
     height: 40px ;
-    width: auto;
+    margin-left: 10px;
 }
 
 .pctitle  {
     color: #000;
     float: left;
-    font-size: 22px; 
-    left: 70px;   
-    position: absolute;
-    top: 553px;
+    font-size: 22px; /*Size 16 could make the pic look better*/
+    margin-left: 10px;
 }
 
 .pcsectext {
     color: #232F34;
-    float: left;
-    left: 70px;
-    position: absolute;
-    top: 575px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .pctext {
     color: #232F34;
     font-size: 11px;
-    left: 2px;
-    padding: 16px; 
-    position: absolute;
-    top: 585px;
+    padding: 16px;/*No Padding could make the pic look better*/
 }
 
 
