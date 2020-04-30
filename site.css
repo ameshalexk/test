@@ -1,16 +1,22 @@
 /*Code for Form*/
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
     form {
         display: grid;
         grid-template-columns: 600px;
+        width: 600px;
     }
-}
-@media screen and (max-width: 600px) {
+    input,select,textarea,button {
+        width: 600px;
+        }
+    }
+
+@media (max-width: 600px) {
     form{
+        display: grid;
         width: 100%;
         }
-    input,select,textarea {
+    input,select,textarea,button {
         width: 100%;
         }
     }
@@ -18,8 +24,8 @@
 /*Code for Picture Card*/
 
 .card:hover {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
     width: 344px;
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, .3);
 }
 
 .desertimg {
@@ -30,7 +36,7 @@
     border-radius: 50%;
     float: left;
     height: 40px ;
-    margin-left: 10px;,
+    margin-left: 10px;
 }
 
 .pctitle  {

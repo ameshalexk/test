@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Pet Information Form Code-->
-    <form action="/pets" method="post"> 
+    <form action="/pets" method="post">
       <fieldset>
         <legend>Pet Information Form</legend>
         <label for="name">Name </label>
@@ -18,43 +18,30 @@
         <input type="text" id="name" name="pet_name" placeholder="Pet Name">
         <br>
       <br>
-      <div>
         <label for="type">Type</label><br>
-        <select id="type" name="pet_type"> 
+        <select id="type" name="pet_type">
           <option>Cat</option>
           <option>Dog</option>
           <option>Hamster</option>
-          <option>Zebra</option>
           <option>Other</option>
-          </select>
-        </div>
-      <br>
-        <div>
-            <label for="bio"> Biography :</label>  <br>
-          <textarea id="bio" name="pet_bio"> </textarea>
-        </div>
-        <div>
+          <option>Zebra</option>
+          </select><br>
+            <label for="bio"> Biography</label>  <br>
+          <textarea id="bio" name="pet_bio"></textarea><br>
           <label for="owner-email">Owner's Email</label><br>
-          <input type="email" name="pet_owner_email" id="owner-email">
-        </div>
-        <div>
-          <input type="submit" id="new-pet-submit-button" value="Create New Pet">
-          <input type="reset">
-
-        </div>
+          <input type="email" name="pet_owner_email" id="owner-email"><br><br>
+          <button type="button" id="new-pet-submit-button">Create new pet</button>
+          <button type="reset">Reset</button>
       </fieldset>
     </form>
 <br> <br><br><br>
   <!-- Picture Card Code-->
     <div class="card">
-      <img src="images/desert.jpg" alt="Desertimage" class="desertimg" > <br>  
-      <img src="images/person-avatar.jpg" alt="Avatarimage" class="avatarimg"> 
+      <img src="images/desert.jpg" alt="Desertimage" class="desertimg" > <br>
+      <img src="images/person-avatar.jpg" alt="Avatarimage" class="avatarimg">
         <div class="pctitle">Title goes here</div><br> <br>
-        <div class="pcsectext">Secondary text </div> 
+        <div class="pcsectext">Secondary text </div>
         <div class="pctext">Greyhound divisively hello coldly wonderfully <br> marginally far upon excluding.</div>
     </div>
 </body>
 </html>
-
-
-
