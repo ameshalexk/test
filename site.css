@@ -15,7 +15,7 @@
         }
     }
 
-/*Code for Picture Cad*/
+/*Code for Picture Card*/
 
 .card:hover {
     width: 344px;
@@ -30,7 +30,7 @@
     border-radius: 50%;
     float: left;
     height: 40px ;
-    margin-left: 10px;
+    margin-left: 10px;,
 }
 
 .pctitle  {
@@ -51,15 +51,3 @@
     font-size: 11px;
     padding: 16px;/*No Padding could make the pic look better*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
